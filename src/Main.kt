@@ -6,7 +6,6 @@ fun main() {
     val persona5 = Persona(80.0, 1.80)
     val personas = listOf(persona1,persona2,persona3,persona4,persona5 )
     mostrar(personas)
-
 }
 fun mostrar(personas:List<Persona>){
     personas.forEach { it.saludar()

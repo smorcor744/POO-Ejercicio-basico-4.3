@@ -50,7 +50,7 @@ class Persona( var peso: Double, var altura: Double ) {
             this.imc < 18.5 -> return "peso insuficiente"
             this.imc in 25.0..29.9 -> return "sobrepeso"
             this.imc > 30.0 -> return "obesidad"
-            else -> return "Ballenato"
+            else -> return "ballenato"
         }
     }
     private fun estatura(): String{
